@@ -1,0 +1,209 @@
+{
+  "main": {
+    "name": "Kenneth Yeung",
+    "occupation": "Cloud DevOps Consultant",
+    "description": "Currently I am working on a Cloud project, developing an FullStack Spring application and migrating it into the cloud.",
+    "image": "profilepic.jpg",
+    "bio": "Hi there and very welcome.\n\n I started building this page to showcase projects I would like to share - and also to learn some JavaScript in the React framework :). I am trying to explain my projects and steps I take in detail as I know how confusing it is to look at some random code snippets without description. \n\n It has been quite an excting journey for me so far transitioning from an engineering background to cloud development and DevOps, so I hope this may be helpful for other aspiring engineers intenting going into cloud as well. I personally work at the AWS Business Group of Accenture (AABG). By working in many projects and with clients I gained practical knowledge of cloud computing and coding skills that I enhanced with my engineering knowledge from my previous occupation to tackle and solve complex technical problems. Understanding the problem is oftentimes very challenging but crucial in order to start the analysis part. Only when having a clear goal in mind, developments can be turned into value and impact the outcome as well as operations. \n\n Currently I work as a FullStack Cloud Developer in Munich, Germany. I am certified in AWS, DevOps, Terraform as Infrastructure as a Code and Kubernetes as an ochestration tool for Docker. In my spare time, I enjoy working out a lot, spending a lot of time in the nature and also with the motorbike.",
+    "contactmessage": "Get in Touch",
+    "email": "kenneth.yeung@outlook.de",
+    "phone": "555-555-5555",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Munich, Germany",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kenneth-s-yeung/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/app888",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "id": "1",
+        "school": "RWTH Aachen University",
+        "degree": "Master of Science in Mechanical Engineering",
+        "graduated": "July 2017",
+        "description": "The RWTH Aachen University is one of the best technical universities in Europe.\n Kenneth's focus of studies contactmessage mechanical engineering and quality management. He wrote his master thesis about the possiblity of the producing carbon fibre out of wood (lignin). The core skills he aquired are deep understanding of technical processes and learning capability in a dynamic environment."
+      },
+      {
+        "id": "2",
+        "school": "RWTH Aachen University",
+        "degree": "Bachelor of Science in Mechanical Engineering",
+        "graduated": "September 2015"
+      }
+    ],
+    "workTimeline": [
+      {
+        "id": "3",
+        "company": "Accenture",
+        "title": "AWS Consultant",
+        "date": "August 2021 - Present",
+        "description": "Kenneth has been working on many client projects for two German premium car manufacturers and a national government. He supported in the area of Java, Sprint Boot, JavaScript, Dojo, Jenkins for Continious Integration/Continious Deployment, AWS Service, Azure cloud and Terraform as Infrastructure as a Code."
+      },
+      {
+        "id": "4",
+        "company": "RUAG",
+        "title": "Quality Engineer",
+        "date": "September 2019 - June 2021",
+        "description": "As a Quality Engineer, Kenneth was responsible of the comfirmity and releases of the landing gear parts of the Airbus 320/321/XLR321 planes."
+      },
+      {
+        "id": "5",
+        "company": "Voith Group",
+        "title": "Quality Engineer",
+        "date": "February 2019 - September 2019"
+       },
+      {
+        "id": "6",
+        "company": "Lasco",
+        "title": "Project Manager PMO",
+        "date": "February 2018 - Dezember 2018"
+      },
+      {
+        "id": "7",
+        "company": "BMW Group",
+        "title": "Quality Engineer Intern",
+        "date": "September 2017 - Dezember 2017"
+      }
+    ],
+    "work": [
+      {
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "March 2007 - February 2010",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python", 
+        "style": "bold"
+      },
+      {
+        "name": "Java",
+        "style": "bold"
+      },
+      {
+        "name": "Spring Boot",
+        "style": "bold"
+      },
+      {
+        "name": "JavaScript",
+        "style": "bold"
+      },
+      {
+        "name": "Dojo",
+        "style": ""
+      },
+      {
+        "name": "React",
+        "style": ""
+      },
+      {
+        "name": "Angular",
+        "style": ""
+      }
+    ],
+    "devops": [
+      {
+        "name": "Kubernetes", 
+        "style": "bold"
+      },
+      {
+        "name": "Terraform for AWS and for Azure",
+        "style": "bold"
+      },
+      {
+        "name": "Jenkins",
+        "style": "bold"
+      },
+      {
+        "name": "AWS Services",
+        "style": ""
+      },
+      {
+        "name": "AWS CodePipeline",
+        "style": ""
+      },
+      {
+        "name": "AWS CodeBuild",
+        "style": ""
+      },
+      {
+        "name": "AWS CodeDeploy",
+        "style": ""
+      },
+      {
+        "name": "AWS Amplify",
+        "style": "bold"
+      },
+      {
+        "name": "Azure Web Apps",
+        "style": ""
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "In my role as Agile Coach on a client project, I had the pleasure of working with Kenneth for some time.\n He came as an additional developer to an already existing team and integrated great into the team within a very short time.",
+        "user": "Andreas Schobesberger (Agile Coach | Consultant | Trainer)"
+      }
+    ]
+  }
+}
