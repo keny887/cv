@@ -47,8 +47,6 @@ const Contact = () => {
         <div className="ten columns">
 
           <p className="lead">Get in Touch</p>
-          <p className='status-message'>{statusMessage}</p>
-
 
         </div>
 
@@ -74,6 +72,7 @@ const Contact = () => {
                 <label htmlFor="contactMessage">Message <span className="required">*</span></label>
                 <textarea rows="4" id="contactMessage" name="message" className='form-control' ></textarea>
                 <input type='hidden' name='contact_number' value={contactNumber} />
+                <p className='status-message'>{statusMessage}</p>
 
               </div>
 
