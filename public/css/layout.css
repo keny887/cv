@@ -968,8 +968,10 @@ call-to-action .button {
 	float: left;
    width: 26%;
 }
-#contact input,
-#contact textarea,
+#contact input { width: 600px; }
+#contact textarea {
+   height: 10em;
+   width: 600px; }
 #contact select {
    padding: 18px 20px;
 	color: rgb(0, 0, 0);
@@ -981,6 +983,17 @@ call-to-action .button {
    line-height: 24px;
    width: 65%;
 }
+#contact .status-message {
+   opacity: 0;
+ }
+ #contact .success {
+   opacity: 1;
+   color: green;
+ }
+ #contact .failure {
+   opacity: 1;
+   color: red;
+ }
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
