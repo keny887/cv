@@ -9,19 +9,24 @@ import timelineElements from "../timelineElements"
 
 class Resume extends Component {
   render() {
-    if (this.props.data) {
+    if (this.props.data) {     
+      var programming = this.props.data.programming.map(programming => {
+        return <li key={programming.name} style={{fontWeight: programming.style}}>{programming.name}</li>
+      })
+      var cloud = this.props.data.cloud.map(cloud => {
+        return <li key={cloud.name} style={{fontWeight: cloud.style}}>{cloud.name}</li>
+      })
+      var container = this.props.data.container.map(container => {
+        return <li key={container.name} style={{fontWeight: container.style}}>{container.name}</li>
+      })
+      var devops = this.props.data.devops.map(devops => {
+        return <li key={devops.name} style={{fontWeight: devops.style}}>{devops.name}</li>
+      })
 
       var education = this.props.data.education.map(function (education) {
         return <div key={education.id}><h3>{education.school}</h3>
           <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-          <p>{education.description}</p></div>
-      })
-      
-      var programmingSkills = this.props.data.skills.map(skills => {
-        return <li key={skills.name} style={{fontWeight: skills.style}}>{skills.name}</li>
-      })
-      var cloudAndVevOps = this.props.data.devops.map(devops => {
-        return <li key={devops.name} style={{fontWeight: devops.style}}>{devops.name}</li>
+          </div>
       })
     }
 
@@ -34,7 +39,7 @@ class Resume extends Component {
         <div className="row work">
 
           <div id="header-work" className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>myJourny</span></h1>
           </div>
 
           <div className="main-colii">
@@ -64,6 +69,66 @@ class Resume extends Component {
       </VerticalTimeline>
           </div>
         </div>
+
+        <div className="row skill">
+
+          <div className="three columns header-col">
+            <h1><span>Progamming Skills</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            <div className='blockList'>
+              <ul className='block'>
+                {programming}
+                {/* <br />
+                <br />
+                {cloud}
+                <br />
+                <br />
+                {container}
+                <br />
+                <br /> */}
+                {/* {devops} */}
+              </ul>            
+            </div>
+          </div>
+
+          <div className="three columns header-col">
+            <h1><span>Cloud Technologies</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className='blockList'>
+              <ul className='block'>
+                {cloud}
+              </ul>            
+            </div>
+          </div>
+
+          <div className="three columns header-col">
+            <h1><span>MicroServices</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className='blockList'>
+              <ul className='block'>
+                {container}
+              </ul>            
+            </div>
+          </div>
+
+          <div className="three columns header-col">
+            <h1><span>DevOps</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className='blockList'>
+              <ul className='block'>
+                {devops}
+              </ul>            
+            </div>
+          </div>
+
+        </div>
+
+
         <div className="row education">
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
@@ -74,24 +139,6 @@ class Resume extends Component {
               <div className="twelve columns">
                 {education}
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row skill">
-
-          <div className="three columns header-col">
-            <h1><span>Progamming-Skills, DevOps and Cloud Technologies</span></h1>
-          </div>
-
-          <div className="nine columns main-col">
-            <div className='blockList'>
-              <ul className='block'>
-                {programmingSkills}
-                <br />
-                <br />
-                {cloudAndVevOps}
-              </ul>            
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 500px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
@@ -62,7 +62,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 55px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -105,8 +105,8 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a { color: #156B9F; }
+header .social li a:hover { color: #fff; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -128,7 +128,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #156B9F; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -159,6 +159,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
+   background-color: #fff;
 
    /* center align the menu */
    text-align: center;
@@ -180,7 +181,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #000000;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -190,7 +191,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: rgb(59, 89, 114); }
+/* ul#nav li.current a { color: rgb(59, 89, 114); } */
 
 
 /* ------------------------------------------------------------------ */
@@ -198,7 +199,7 @@ ul#nav li.current a { color: rgb(59, 89, 114); }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #ffffff;
    padding-top: 66px;
    padding-bottom: 50px;
    overflow: hidden;
@@ -208,15 +209,15 @@ ul#nav li.current a { color: rgb(59, 89, 114); }
 #about .row {
    width: 96%;
    max-width: 1500px;
-   margin: 0 auto;
+   margin: 0 15%;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #156B9F; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #050505;
    margin-bottom: 12px;
 }
 #about h3 {
@@ -226,13 +227,7 @@ ul#nav li.current a { color: rgb(59, 89, 114); }
 }
 #about p {
    line-height: 22px;
-   color: #7A7A7A;
-}
-#about .profile-pic {
-   position: relative;
-   width: 400px;
-   height: 300px;
-   /* border-radius: 100%; */
+   color: #050505;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -260,7 +255,6 @@ ul#nav li.current a { color: rgb(59, 89, 114); }
 
 #resume {
    background: rgb(212, 212, 212);
-   padding-top: 45px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -271,7 +265,7 @@ ul#nav li.current a { color: rgb(59, 89, 114); }
    margin: 0 auto;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #156B9F; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -280,9 +274,15 @@ ul#nav li.current a { color: rgb(59, 89, 114); }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #156B9F;
    padding-bottom: 6px;
 }
+
+.vertical-timeline.vertical-timeline--two-columns {
+  margin-top: 1.5%;
+  margin-left: -50%;
+}
+
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
@@ -293,11 +293,16 @@ ul#nav li.current a { color: rgb(59, 89, 114); }
    width: 10%;
 }
 
-.education, .work, .skill {
+.work, .skill {
    margin-bottom: 100px;
    padding-bottom: 50px;
    padding-top: 50px;
    border-bottom: 1px solid #fff;
+}
+
+.education {
+   margin-bottom: 100px;
+   padding-top: 50px;
 }
 
 .skill {
@@ -387,6 +392,17 @@ max-width: 2000px;
 #resume .vertical-timeline-element-content {
    padding: 1em;
 }
+
+#resume .vertical-timeline-element-icon svg {
+   display: block;
+   width: 40px;
+   height: 40px;
+   position: relative;
+   left: 50%;
+   top: 50%;
+   margin-left: -20px;
+   margin-top: -20px;
+ }
 
 @media only screen and (max-width: 1700px) {
    .vertical-timeline-element-date {
@@ -923,7 +939,7 @@ call-to-action .button {
    margin-bottom: 42px; 
 }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #156B9F; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -1017,7 +1033,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #156B9F;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -1029,7 +1045,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #156B9F; }
 
 #message-warning i,
 #message-success i {
@@ -1069,13 +1085,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #fff;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #156B9F; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */

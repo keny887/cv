@@ -288,7 +288,7 @@ e. Others
  a, a:visited {
     text-decoration: none;
     outline: 0;
-    color: #11ABB0;
+    color: #156B9F;
  
     -webkit-transition: color .3s ease-in-out;
     -moz-transition: color .3s ease-in-out;
@@ -349,7 +349,7 @@ e. Others
     color: #313131;
  }
  .stats-tabs li a:hover {
-    color:#11ABB0;
+    color:#156B9F;
  }
  .stats-tabs li a b {
      display: block;
@@ -361,7 +361,7 @@ e. Others
  
  /* definition list */
  dl { margin: 12px 0; }
- dt { margin: 0; color:#11ABB0; }
+ dt { margin: 0; color:#156B9F; }
  dd { margin: 0 0 0 20px; }
  
  /* Lining Definition Style Markup */
@@ -436,7 +436,7 @@ e. Others
  }
  .pagination .current,
  .pagination .current:hover {
-    background-color: #11ABB0;
+    background-color: #156B9F;
     color: #fff;
  }
  .pagination .inactive,
@@ -642,7 +642,7 @@ e. Others
  .row .six         { width: 50%; }
  .row .seven       { width: 58.33333%; }
  .row .eight       { width: 66.66667%; }
- .row .nine        { width: 75%; }
+ .row .nine        { width: 80%; }
  .row .ten         { width: 83.33333%; }
  .row .eleven      { width: 91.66667%; }
  .row .twelve      { width: 100%; }

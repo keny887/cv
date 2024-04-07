@@ -1,10 +1,9 @@
 {
   "main": {
     "name": "Kenneth Yeung",
-    "occupation": "Cloud DevOps Consultant",
-    "description": "Currently I am working on a Cloud project, developing an FullStack Spring application and migrating it into the cloud.",
-    "image": "profilepic.jpg",
-    "bio": "Hi there and very welcome.\n\n I started building this page to showcase projects I would like to share - and also to learn some JavaScript in the React framework :). I am trying to explain my projects and steps I take in detail as I know how confusing it is to look at some random code snippets without description. \n\n It has been quite an excting journey for me so far transitioning from an engineering background to cloud development and DevOps, so I hope this may be helpful for other aspiring engineers intenting going into cloud as well. I personally work at the AWS Business Group of Accenture (AABG). By working in many projects and with clients I gained practical knowledge of cloud computing and coding skills that I enhanced with my engineering knowledge from my previous occupation to tackle and solve complex technical problems. Understanding the problem is oftentimes very challenging but crucial in order to start the analysis part. Only when having a clear goal in mind, developments can be turned into value and impact the outcome as well as operations. \n\n Currently I work as a FullStack Cloud Developer in Munich, Germany. I am certified in AWS, DevOps, Terraform as Infrastructure as a Code and Kubernetes as an ochestration tool for Docker. In my spare time, I enjoy working out a lot, spending a lot of time in the nature and also with the motorbike.",
+    "occupation": "AWS Architect - DevOps/Kubernetes Specialist",
+    "description": "Currently I am working as a Cloud Architect for one of the biggest German car company.",
+    "bio": "Hello and welcome! \n\n This page is my digital canvas, crafted to not only exhibit projects I'm deeply passionate about but also to delve into the fascinating world of React development. My mission is to clarify the coding process, offering in-depth explanations and insights for each project. I'm well aware of the confusion that bare code snippets can bring and am determined to provide a more enlightening experience here.\n\nMy professional journey has taken me from the structured world of Mechanical Engineering to the dynamic and ever-evolving landscapes of Software Development, Cloud, Platform Engineering, and CI/CD. It's been nothing short of exhilarating. Through sharing my story, I aim to light the way for fellow engineers considering a similar path.\n\nPreviously, I honed my skills in Java and JavaScript development at Accenture, and I am currently embracing the role of an AWS Architect at Volkswagen. These positions have immersed me in a variety of projects, enabling fruitful collaborations with clients and a deep dive into Software Development and Platform Engineering, particularly focusing on AWS and Kubernetes. My background in engineering has been a key asset, allowing me to approach complex technical challenges with innovative solutions. I'm a firm believer in the power of understanding the core of a problem; it's the foundation for impactful analysis and transforming developments into real-world value.\n\nWhen I step away from my desk, I recharge by engaging in physical activity, connecting with nature, and riding my motorbike. These pursuits offer a vital balance to my technical endeavors, sparking my creativity and sustaining my motivation.",
     "contactmessage": "Get in Touch",
     "email": "kenneth.yeung@outlook.de",
     "phone": "555-555-5555",
@@ -22,11 +21,6 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/kenneth-s-yeung/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/app888",
-        "className": "fa fa-github"
       }
     ]
   },
@@ -37,8 +31,7 @@
         "id": "1",
         "school": "RWTH Aachen University",
         "degree": "Master of Science in Mechanical Engineering",
-        "graduated": "July 2017",
-        "description": "The RWTH Aachen University is one of the best technical universities in Europe.\n Kenneth's focus of studies contactmessage mechanical engineering and quality management. He wrote his master thesis about the possiblity of the producing carbon fibre out of wood (lignin). The core skills he aquired are deep understanding of technical processes and learning capability in a dynamic environment."
+        "graduated": "July 2017"
       },
       {
         "id": "2",
@@ -95,7 +88,7 @@
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
-    "skills": [
+    "programming": [
       {
         "name": "Python", 
         "style": "bold"
@@ -105,61 +98,77 @@
         "style": "bold"
       },
       {
-        "name": "Spring Boot",
-        "style": "bold"
+        "name": "Spring Boot Framework",
+        "style": ""
       },
       {
         "name": "JavaScript",
         "style": "bold"
       },
       {
-        "name": "Dojo",
+        "name": "Dojo Framework",
         "style": ""
       },
       {
-        "name": "React",
+        "name": "React Framework",
         "style": ""
       },
       {
-        "name": "Angular",
+        "name": "Angular Framework",
         "style": ""
       }
     ],
     "devops": [
       {
-        "name": "Kubernetes", 
+        "name": "Jenkins",
+        "style": "bold"
+      },
+      {
+        "name": "Github Actions",
+        "style": "bold"
+      },
+      {
+        "name": "AWS CodePipeline",
+        "style": "bold"
+      },
+      {
+        "name": "Azure Devops",
+        "style": "bold"
+      }
+    ],
+    "cloud": [
+      {
+        "name": "AWS Cloud",
+        "style": "bold"
+      },
+      {
+        "name": "Azure Cloud",
         "style": "bold"
       },
       {
         "name": "Terraform for AWS and for Azure",
         "style": "bold"
-      },
+      }
+    ],
+    "container": [
       {
-        "name": "Jenkins",
+        "name": "Kubernetes", 
         "style": "bold"
       },
       {
-        "name": "AWS Services",
+        "name": "Docker", 
         "style": ""
       },
       {
-        "name": "AWS CodePipeline",
+        "name": "Grafana",  
         "style": ""
       },
       {
-        "name": "AWS CodeBuild",
+        "name": "Prometheus", 
         "style": ""
       },
       {
-        "name": "AWS CodeDeploy",
-        "style": ""
-      },
-      {
-        "name": "AWS Amplify",
-        "style": "bold"
-      },
-      {
-        "name": "Azure Web Apps",
+        "name": "Velero", 
         "style": ""
       }
     ]
