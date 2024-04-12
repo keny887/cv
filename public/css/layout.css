@@ -1083,10 +1083,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 30px;
+   margin-bottom: 20px;
    color: #fff;
-   font-size: 14px;
+   font-size: 11px;
    text-align: center;
    position: relative;
 }

@@ -14,7 +14,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 50px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -52,6 +52,9 @@
 
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
+   #about .columns {
+      margin-left: -48px;
+   }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -156,7 +159,7 @@
 	#nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 30px 20px 48px 20px;
-      background: #1f2024;
+      background: #eef0f7;
       margin: 0 30px;
       clear: both;
    }
@@ -187,7 +190,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 50px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -216,7 +219,12 @@
       text-align: center;
       padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
+   #about .main-col { padding-right: 60px; }
+
+   #about {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
 
 
    /* Resume Section
@@ -229,7 +237,39 @@
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
-      
+   #resume .vertical-timeline-element-content {
+      margin-left: 170px;
+   }
+   #resume .vertical-timeline {
+      padding: 0em 0;
+   }
+   #resume .vertical-timeline-element-title {
+      font: 20px/30px 'opensans-bold', sans-serif;
+   }
+   #resume .info {
+   font: 14px/30px 'librebaskerville-italic', serif;
+   color: #10178C;
+   margin-bottom: -7px;
+   }
+   #description {
+   margin: 1.5em 0 1em 0;
+   }
+   #resume .vertical-timeline-element-date {
+   font: 11px/15px 'opensans-regular', sans-serif;   
+   }
+   #resume .university{
+   font: 19px/25px 'opensans-bold', sans-serif;
+   }
+   #resume .info.degree {
+      font: 12px/18px 'librebaskerville-italic', serif;
+      color: #10178C;
+      margin-bottom: 14px;
+    }
+   #resume .education.date {
+      font: 12px/24px 'opensans-regular', sans-serif;
+      color: #000;
+   }
+  }
    .bars { width: 100%; }
 
 
@@ -266,9 +306,9 @@
    #testimonials .header-col h1:before { content: none; }
    #testimonials blockquote { padding-bottom: 24px; }
    #testimonials blockquote p {
-      font-size: 20px;
-      line-height: 42px;      
-   }
+      font-size: 12px;
+      line-height: 32px;
+    }
 
    /* Control Nav */
    .flex-control-nav {
@@ -346,9 +386,16 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 20px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
+   header .banner-text h2 {
+      font: 15px/1.0em 'opensans-bold', serif;
+      color: #fff;
+      margin: 0 auto;
+      width: 70%;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+    }
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;

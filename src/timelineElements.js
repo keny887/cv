@@ -4,7 +4,7 @@ let timelineElements = [
       company: "Volkwagen",
       title: "AWS and Kubernetes Architect",
       date: "Oktober 2022 - Present",
-      description: "Kenneth supported role the establishment of a sales platform on AWS for Volkswagen. His expertise facilitated the integration of a suite of technologies including EC2 for virtual servers, Kubernetes for container orchestration of micro services, Grafana and Prometheus for monitoring and analytics, and GitHub Actions along with Jenkins for automation and CI/CD processes. Additionally, he implemented Velero for backup solutions, among other technologies, ensuring a robust and efficient infrastructure."
+      description: "Kenneth has supported the establishment of a sales platform on AWS for Volkswagen. His expertise facilitated the integration of a suite of technologies including EC2 for virtual servers, Kubernetes for container orchestration of micro services, Grafana and Prometheus for monitoring and analytics, and GitHub Actions along with Jenkins for automation and CI/CD processes. Additionally, he implemented Velero for backup solutions, among other technologies, ensuring a robust and efficient infrastructure."
     },
     {
       id: 2,
