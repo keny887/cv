@@ -1,0 +1,189 @@
+{
+  "main": {
+    "name": "Kenneth Yeung",
+    "occupation": "AWS Architect - DevOps/Kubernetes Specialist",
+    "description": "Currently I am working as a Cloud Architect for one of the biggest German car company.",
+    "bio": "Hello and welcome! \n\n I created this AWS S3 page to not only showcase the projects I am working on but also to delve into the fascinating world of React development.\n\nMy professional journey has taken me from the structured world of Mechanical Engineering to the dynamic and ever-evolving landscapes of Software Development, Cloud, Platform Engineering, and CI/CD. It's been nothing short of exhilarating. Through sharing my story, I aim to light the way for fellow engineers considering a similar path.\n\nPreviously, I honed my skills in Java and JavaScript development at Accenture, and I am currently embracing the role of an AWS Architect at Volkswagen. These positions have immersed me in a variety of projects, enabling fruitful collaborations with clients and a deep dive into Software Development and Platform Engineering, particularly focusing on AWS and Kubernetes. My background in engineering has been a key asset, allowing me to approach complex technical challenges with innovative solutions. I'm a firm believer in the power of understanding the core of a problem; it's the foundation for impactful analysis and transforming developments into real-world value.\n\nWhen I step away from my desk, I recharge by engaging in physical activity, connecting with nature, and riding my motorbike. These pursuits offer a vital balance to my technical endeavors, sparking my creativity and sustaining my motivation.",
+    "contactmessage": "Get in Touch",
+    "email": "kenneth.yeung@outlook.de",
+    "phone": "555-555-5555",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Munich, Germany",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kenneth-s-yeung/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "id": "1",
+        "school": "RWTH Aachen University",
+        "degree": "Master of Science in Mechanical Engineering",
+        "graduated": "July 2017"
+      },
+      {
+        "id": "2",
+        "school": "RWTH Aachen University",
+        "degree": "Bachelor of Science in Mechanical Engineering",
+        "graduated": "September 2015"
+      }
+    ],
+    "workTimeline": [
+      {
+        "id": "3",
+        "company": "Accenture",
+        "title": "AWS Consultant",
+        "date": "August 2021 - Present",
+        "description": "Kenneth has been working on many client projects for two German premium car manufacturers and a national government. He supported in the area of Java, Sprint Boot, JavaScript, Dojo, Jenkins for Continious Integration/Continious Deployment, AWS Service, Azure cloud and Terraform as Infrastructure as a Code."
+      },
+      {
+        "id": "4",
+        "company": "RUAG",
+        "title": "Quality Engineer",
+        "date": "September 2019 - June 2021",
+        "description": "As a Quality Engineer, Kenneth was responsible of the comfirmity and releases of the landing gear parts of the Airbus 320/321/XLR321 planes."
+      },
+      {
+        "id": "5",
+        "company": "Voith Group",
+        "title": "Quality Engineer",
+        "date": "February 2019 - September 2019"
+       },
+      {
+        "id": "6",
+        "company": "Lasco",
+        "title": "Project Manager PMO",
+        "date": "February 2018 - Dezember 2018"
+      },
+      {
+        "id": "7",
+        "company": "BMW Group",
+        "title": "Quality Engineer Intern",
+        "date": "September 2017 - Dezember 2017"
+      }
+    ],
+    "work": [
+      {
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "March 2007 - February 2010",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "programming": [
+      {
+        "name": "Python", 
+        "style": ""
+      },
+      {
+        "name": "Java",
+        "style": ""
+      },
+      {
+        "name": "Spring Boot Framework",
+        "style": ""
+      },
+      {
+        "name": "JavaScript",
+        "style": ""
+      },
+      {
+        "name": "Dojo Framework",
+        "style": ""
+      },
+      {
+        "name": "React Framework",
+        "style": ""
+      },
+      {
+        "name": "Angular Framework",
+        "style": ""
+      }
+    ],
+    "devops": [
+      {
+        "name": "Jenkins",
+        "style": ""
+      },
+      {
+        "name": "Github Actions",
+        "style": ""
+      },
+      {
+        "name": "AWS CodePipeline",
+        "style": ""
+      },
+      {
+        "name": "Azure Devops",
+        "style": ""
+      }
+    ],
+    "cloud": [
+      {
+        "name": "AWS Cloud",
+        "style": ""
+      },
+      {
+        "name": "Azure Cloud",
+        "style": ""
+      },
+      {
+        "name": "Terraform for AWS and for Azure",
+        "style": ""
+      }
+    ],
+    "container": [
+      {
+        "name": "Kubernetes", 
+        "style": ""
+      },
+      {
+        "name": "Docker", 
+        "style": ""
+      },
+      {
+        "name": "Grafana",  
+        "style": ""
+      },
+      {
+        "name": "Prometheus", 
+        "style": ""
+      },
+      {
+        "name": "Velero", 
+        "style": ""
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "In my role as Agile Coach on a client project, I had the pleasure of working with Kenneth for some time.\n He came as an additional developer to an already existing team and integrated great into the team within a very short time.",
+        "user": "Andreas Schobesberger (Agile Coach | Consultant | Trainer)"
+      }
+    ]
+  }
+}
